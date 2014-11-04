@@ -1,9 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic|Roboto+Slab:400,700);
 body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
   color: #4d4d4d;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
 a {
@@ -15,6 +16,16 @@ hr {
   background-color: #eeeeee;
   height: 1px;
   border: none;
+}
+h1, h3, h2 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 400;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 20px;
 }
 aside div#user_meta {
   padding: 40px;
@@ -131,24 +142,28 @@ main div#ending_message {
     height: 100%;
     position: fixed;
     top: 0;
-    left: 0;
-    border-right: #eeeeee 1px solid;
+    right: 0;
+    border-left: #eeeeee 1px solid;
   }
   aside h2 {
     margin: 10px 0 0 0;
+    font-size: 24px;
   }
   aside div#user_meta {
-    max-width: 192px;
+    max-width: 213px;
     text-align: right;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
   }
   aside div#user_meta ul li {
     display: block;
   }
   main {
-    width: 75%;
+    width: 65%;
     position: absolute;
     top: 0;
-    left: 25%;
+    right: 25%;
     overflow-x: hidden;
     overflow-y: hidden;
   }
